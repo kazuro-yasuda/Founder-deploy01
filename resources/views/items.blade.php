@@ -67,7 +67,8 @@
                     
             
                     <!--　詳細画面へ -->
-                    <a href="/item/{{$item->id }}" class="btn btn-primary">詳細</a>
+                    {{--<a href="/item/{{$item->id }}" class="btn btn-primary">詳細</a>--}}
+                    <a href="{{'/item/'.$item->id }}" class="btn btn-primary">詳細</a>
                     
                     
                     <!--いいね！ボタン-->
