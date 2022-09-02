@@ -12,7 +12,6 @@ use App\Http\Controllers\ImageController;
 use App\Http\Controllers\ItemDetailController;
 
 
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
