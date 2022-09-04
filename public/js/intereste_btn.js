@@ -38,21 +38,21 @@ console.log(inputs);
     
     
     
-// function onchange() {
+function onchange() {
     
-//     let element;
-//     if(document.getElementById("checkbox").checked) {
+    let element;
+    if(document.getElementById("checkbox").checked) {
 
-//   　　　  // チェックが入っていたら、「比較画面」への送信ボタンのdisabledを外す
-//         element = document.getElementById("compare");
-//         element.disabled = false;
+  　　　  // チェックが入っていたら、「比較画面」への送信ボタンのdisabledを外す
+        element = document.getElementById("compare");
+        element.disabled = false;
         
-//     }else {
-//         // チェックが外れていたら、「比較画面」への送信ボタンにdisabledを付ける
-//         element = document.getElementById("compare");
-//         element.disabled = true;
-//     } 
+    }else {
+        // チェックが外れていたら、「比較画面」への送信ボタンにdisabledを付ける
+        element = document.getElementById("compare");
+        element.disabled = true;
+    } 
   
-// }
+}
 
 
